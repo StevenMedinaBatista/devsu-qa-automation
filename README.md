@@ -52,7 +52,7 @@ cypress/
 ## 📦 Instalación
 
 1. Clonar el repositorio:
-- git clone https://github.com/<usuario>/devsu-qa-automation.git
+``` git clone https://github.com/<usuario>/devsu-qa-automation.git ```
 
 2. Acceder al proyecto:
 - cd devsu-qa-automation
