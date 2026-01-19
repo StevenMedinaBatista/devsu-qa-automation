@@ -55,21 +55,21 @@ cypress/
 ``` git clone https://github.com/<usuario>/devsu-qa-automation.git ```
 
 2. Acceder al proyecto:
-- cd devsu-qa-automation
+``` cd devsu-qa-automation ```
 
 3. Instalar dependencias:
-- npm install
+``` npm install ```
 
 ## ▶️ Ejecución de pruebas
 
 Ejecutar pruebas E2E (UI)
-- npm run test:e2e
+``` npm run test:e2e ```
 
 Ejecutar pruebas de API
-- npm run test:api
+``` npm run test:api ```
 
 Abrir Cypress en modo interactivo
-- npm run cy:open
+``` npm run cy:open ```
 
 
 ## 📊 Reportería de pruebas
@@ -83,7 +83,7 @@ Actualmente Cypress genera reportes en consola con:
 ## 📸 Evidencias automáticas
 
 Screenshots:
-- cypress/screenshots/
+``` cypress/screenshots/ ```
 
 Videos:
-- cypress/videos/
+``` cypress/videos/ ```
