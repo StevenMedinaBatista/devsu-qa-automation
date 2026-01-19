@@ -1,0 +1,23 @@
+{
+  "name": "devsu-qa-automation",
+  "version": "1.0.0",
+  "description": "QA Automation E2E (Cypress) + API tests for Devsu technical test",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:e2e": "cypress run --spec cypress/e2e/e2e/**/*.cy.ts",
+    "test:api": "cypress run --spec cypress/e2e/api/**/*.cy.ts",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Steven Medina Batista",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "cypress": "^14.3.3",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
